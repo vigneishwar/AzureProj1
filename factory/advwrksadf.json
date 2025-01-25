@@ -2,7 +2,7 @@
 	"name": "advwrksadf",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "false"
 		}
 	},
 	"location": "australiasoutheast"
