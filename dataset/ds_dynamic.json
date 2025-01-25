@@ -1,0 +1,30 @@
+{
+	"name": "ds_dynamic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "httplinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"param_rel": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@dataset().param_rel",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
