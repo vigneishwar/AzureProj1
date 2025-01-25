@@ -1,0 +1,9 @@
+{
+	"name": "advwrksadf",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
+	"location": "australiasoutheast"
+}
