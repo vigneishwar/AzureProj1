@@ -6,6 +6,8 @@
 			{
 				"name": "ForEachGit",
 				"type": "ForEach",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "LookupGit",
@@ -101,6 +103,8 @@
 			{
 				"name": "LookupGit",
 				"type": "Lookup",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
